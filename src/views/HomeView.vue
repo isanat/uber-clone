@@ -94,7 +94,7 @@
     import MagnifyIcon from 'vue-material-design-icons/Magnify.vue';
     import HomeIcon from 'vue-material-design-icons/Home.vue';
     import MapMarkerIcon from 'vue-material-design-icons/MapMarker.vue';
-    import { onMounted } from '@vue/runtime-core';
+    import { onMounted } from 'vue';  // Alterado para importar de 'vue'
     import { useDirectionStore } from '@/store/direction-store';
 
     const router = useRouter()

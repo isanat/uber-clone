@@ -1,10 +1,10 @@
-const { defineConfig } = require('@vue/cli-service')
+ Tqaxiconst { defineConfig } = require('@vue/cli-service')
 module.exports = defineConfig({
   transpileDependencies: true,
   pwa: {
-    name: "Uber clone",
-    shortName: "Uber clone",
-    description: "This is an Uber clone",
+    name: "Projeto taxi",
+    shortName: "Projeto Taxi",
+    description: "This is an Projeto Taxi",
     backgroundColor: "#ffffff",
     themeColor: "#000000",
     msTileColor: "#000000",

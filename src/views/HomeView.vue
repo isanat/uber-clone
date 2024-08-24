@@ -2,7 +2,7 @@
   <div id="Home" class="flex flex-col h-screen">
     <div class="m-3 mb-auto">
 
-      <div class="my-20">
+      <div class="flex justify-center my-20">
         <img width="150" src="img/uber/uber2.svg">
       </div>
 
@@ -14,9 +14,9 @@
           image="ride"
         />
         <ServiceSelectLarge
-          text="Food"
+          text="Reserve"
           imageWidth="72"
-          image="food"
+          image="reserve"
           :promo="true"
         />
       </div>
